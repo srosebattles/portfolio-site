@@ -13,18 +13,23 @@ html, body {
 .imgDiv {
   /*padding: 1rem;*/
   background-color: black;
+  background-image: url(bookcomputer.jpg);
+  background-size: cover;
   color: whitesmoke;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-content: center;
 }
 
 .myPic {
   border-radius: 15px;
-  max-height: 120px;
-  width: auto;
+  width: 50%;
+  height: 50%;
+  margin: 1rem auto;
 
 }
 
@@ -110,6 +115,7 @@ html, body {
 
   .headshotTitle {
     margin-top: 4rem;
+    margin-bottom: 3rem;
   }
 
   .bookPic {
@@ -123,8 +129,10 @@ html, body {
 
   .myPic {
       border-radius: 15px;
-      max-height: 198px;
-      width: auto;
+      width: 20%;
+      height: 20%;
+      margin: 1rem auto;
+      margin-top: 4rem;
   }
 
   .skillsList {
@@ -133,9 +141,13 @@ html, body {
     margin: 4rem 5rem;
   }
 
+  .about {
+    margin-top: 3rem;
+  }
+
   .aboutText {
     text-align: left;
-    margin: 4rem 5rem;
+    margin: 3rem 5rem;
   }
 
   .codePic {

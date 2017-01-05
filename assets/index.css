@@ -12,23 +12,25 @@ html, body {
 
 .imgDiv {
   /*padding: 1rem;*/
-  background-color: gray;
+  background-color: black;
   color: whitesmoke;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 
 .myPic {
   border-radius: 15px;
   max-height: 120px;
   width: auto;
+
 }
 
 .bookPic {
   position: relative;
-  opacity: .7;
+  opacity: .3;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -36,6 +38,10 @@ html, body {
 }
 
 .headshotTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   z-index: 3;
   text-align: center;
@@ -65,7 +71,7 @@ html, body {
 
 .codePic {
   position: relative;
-  opacity: .55;
+  opacity: .7;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -75,6 +81,20 @@ html, body {
 .aboutText {
   text-align: left;
   margin: 2rem;
+}
+
+.projectsDiv {
+  text-align: left;
+  margin: 2rem;
+}
+
+.projectsDiv h1 {
+  text-align: center;
+}
+
+.projectsDiv h3 a {
+  color: black;
+  text-decoration: none;
 }
 
 
@@ -125,6 +145,10 @@ html, body {
     padding: 0;
     width: 100%;
     height: 500px;
+  }
+
+  .projectsDiv {
+    margin: 4rem 5rem;
   }
 }
 

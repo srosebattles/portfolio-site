@@ -39,7 +39,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .headshotTitle {
@@ -68,6 +68,7 @@ html, body {
   position: absolute;
   z-index: 3;
   margin: 2rem;
+  margin-top: .1rem;
 }
 
 .skillsList h1 {

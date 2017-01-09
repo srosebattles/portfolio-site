@@ -2,9 +2,17 @@ html, body {
   box-sizing: border-box;
   border: 0;
   margin: 0;
-  font-family: serif;
+  font-family: 'Arapey', serif;
   font-size: 20px;
 }
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+/*.myName {
+  font-family: 'Arapey', serif;
+}*/
 
 /** {
   border: 1px solid magenta;
@@ -21,7 +29,6 @@ html, body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
   align-content: center;
 }
 
@@ -103,6 +110,42 @@ html, body {
   text-decoration: none;
 }
 
+.projectsDiv h3 a:hover {
+  color: slategray;
+  text-decoration: underline;
+  transition: .3s ease;
+}
+
+.socialDiv {
+  font-size: 70px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.socialDiv a {
+  color: whitesmoke;
+}
+
+.socialDiv a:hover {
+  color: lightgray;
+}
+
+.socialIcons {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.socialIcons a {
+  color: whitesmoke;
+}
+
+.socialIcons a:hover {
+  color: lightgray;
+}
 
 @media (min-width: 420px) {
 

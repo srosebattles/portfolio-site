@@ -137,6 +137,7 @@ h1, h2, h3 {
 .socialIcons {
   font-size: 30px;
   color: whitesmoke;
+  padding-bottom: 1rem;
 }
 
 .socialIcons a {

@@ -134,6 +134,25 @@ h1, h2, h3 {
   color: lightgray;
 }
 
+.emailDiv {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+  padding-top: .5rem;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.emailDiv a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.emailDiv a:hover {
+  color: lightgray;
+}
+
 .socialIcons {
   font-size: 50px;
   color: whitesmoke;

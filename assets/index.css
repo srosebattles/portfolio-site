@@ -149,6 +149,18 @@ h1, h2, h3 {
   color: lightgray;
 }
 
+.projectPic {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  border: 1px solid slategray;
+}
+
+.projectPic:hover {
+  opacity: .7;
+  transition: .3s ease;
+}
+
 @media (min-width: 420px) {
 
 }
@@ -208,6 +220,12 @@ h1, h2, h3 {
   .projectsDiv {
     margin: 4rem 5rem;
   }
+
+  .projectPic {
+    max-width: 50%;
+    height: auto;
+  }
+
 }
 
 @media (min-width: 1020px) {

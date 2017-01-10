@@ -14,7 +14,7 @@ h1, h2, h3 {
   font-family: 'Arapey', serif;
 }*/
 
-/** {
+/* * {
   border: 1px solid magenta;
 }*/
 
@@ -192,15 +192,6 @@ h1, h2, h3 {
 
 @media (min-width: 699px) {
 
-  .eachProject {
-    width: 48%;
-    margin: .5rem;
-  }
-
-  .projectsRow {
-    display: flex;
-  }
-
   .imgDiv {
     /*padding-top: 4rem;*/
     padding: 0;
@@ -231,7 +222,7 @@ h1, h2, h3 {
   .skillsList {
     text-align: left;
     font-size: 24px;
-    margin: 4rem 5rem;
+    margin: 2rem 5rem;
   }
 
   .about {
@@ -256,13 +247,20 @@ h1, h2, h3 {
     margin: 4rem 5rem;
   }
 
+}
+
+@media (min-width: 885px) {
+  .eachProject {
+    width: 48%;
+    margin: .5rem;
+  }
+
+  .projectsRow {
+    display: flex;
+  }
+
   .projectPic {
     max-width: 99%;
     height: auto;
   }
-
-}
-
-@media (min-width: 1020px) {
-
 }

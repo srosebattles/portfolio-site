@@ -99,10 +99,16 @@ h1, h2, h3 {
 .projectsDiv {
   text-align: left;
   margin: 2rem;
+  margin-top: 0rem;
 }
 
-.projectsDiv h1 {
+.eachProject {
+  width: 90%
+}
+
+.projectsHeader {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .projectsDiv h3 a {
@@ -185,6 +191,16 @@ h1, h2, h3 {
 }
 
 @media (min-width: 699px) {
+
+  .eachProject {
+    width: 48%;
+    margin: .5rem;
+  }
+
+  .projectsRow {
+    display: flex;
+  }
+
   .imgDiv {
     /*padding-top: 4rem;*/
     padding: 0;
@@ -241,7 +257,7 @@ h1, h2, h3 {
   }
 
   .projectPic {
-    max-width: 50%;
+    max-width: 99%;
     height: auto;
   }
 

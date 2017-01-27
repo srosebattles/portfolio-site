@@ -186,6 +186,14 @@ h1, h2, h3 {
   transition: .3s ease;
 }
 
+.seeCode a {
+  color: black;
+}
+
+.seeCode a:visited {
+  color: black;
+}
+
 @media (min-width: 420px) {
 
 }
